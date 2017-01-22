@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+	<title>Saper</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/>
+    <link type="text/css" href="saper-style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://code.jquery.com/ui/1.12.0-rc.2/themes/smoothness/jquery-ui.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js" integrity="sha256-55Jz3pBCF8z9jBO1qQ7cIf0L+neuPTD1u7Ytzrp2dqo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="saper-js.js"></script>
+</head>    
+<body>
+    <div id="wrapper">
+        <div class="boardElement" id="console">
+            <div class ="boardElement" id="levelMenu">
+                Choose level:
+                <button class="levelButton boardElement" id="easy" value="easy">easy</button>
+                <button class="levelButton boardElement" id="normal" value="normal">normal</button>
+                <button class="levelButton boardElement" id="hard" value="hard">hard</button>
+            </div>
+            <div class="info boardElement" id="bombNumber"></div>
+            <div class="info boardElement" id="score"></div>
+            <div class="info boardElement" id="timer">Time: 0</div>
+        </div>    
+        <div id="board">
+            <div id="message">
+                <p>Choose level to start!</p>
+            </div>
+        </div>
+    </div>
+    <div id="footer"><br>2016 © Agnieszka Grędowska</div>
+    <div id="gameover" class="dialogBox" title="GAME OVER!">You lost! Close this window to play again!</div>
+    <div id="win" class="dialogBox" title="CONGRATULATIONS!">You won! Close this window to play again!</div>
+</body>  
+</html>
+    
+    
